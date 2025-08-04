@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu Kumar Das - Java Developer Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4 gradient-text" href="#home">Portfolio</a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section min-vh-40 d-flex align-items-center position-relative overflow-hidden">
+        <!-- Background Animation -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 opacity-25">
+            <div class="bg-animation bg-animation-1"></div>
+            <div class="bg-animation bg-animation-2"></div>
+            <div class="bg-animation bg-animation-3"></div>
+        </div>
+
+        <div class="container position-relative">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <div class="mb-4 fade-in-up">
+                        <div class="profile-img mx-auto mb-4">
+                            <img src="public/pic_sq.JPG" alt="Sonu Kumar Das" class="img-fluid rounded-circle">
+                        </div>
+                    </div>
+                    
+                    <h1 class="hero-title text-white mb-4 fade-in-up delay-200">
+                        <span class="d-block d-sm-inline">Sonu Kumar Das</span> 
+                        
+                    </h1>
+                    
+                    <p class="hero-subtitle text-light mb-5 fade-in-up delay-400">
+                        Java Developer passionate about creating robust backend services and full-stack web applications
+                    </p>
+                    
+                    <div class="mb-5 fade-in-up delay-600">
+                        <a href="https://drive.google.com/file/d/1JtRViDwaIt6FlmMf6V9QA7ZP2NUOdmeG/view?usp=sharing" 
+                           target="_blank" rel="noopener noreferrer" 
+                           class="btn btn-gradient btn-lg px-4 py-3">
+                            <i class="fas fa-download me-2"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                    
+                    <div class="social-links fade-in-up delay-800">
+                        <a href="https://github.com/sonukumardas" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sonu-kumar-das12022000/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:sonukumardas1202@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-dark-secondary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="section-title text-center text-white mb-5">
+                        About <span class="gradient-text">Me</span>
+                    </h2>
+                    
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 order-2 order-lg-1">
+                            <div class="about-content">
+                                <p class="text-light mb-4">
+                                    I'm an enthusiastic software engineering graduate proficient in Java, Spring Boot, and Hibernate on the backend, with a solid understanding of frontend technologies like HTML, CSS and JavaScript.
+                                </p>
+                                <p class="text-light mb-5">
+                                    I've completed multiple full-stack projects that involved creating user-friendly interfaces and connecting them with robust backend services. Ready to contribute to dynamic teams and grow as a full-stack developer.
+                                </p>
+                                
+                                <div class="row g-4">
+                                    <div class="col-md-4 text-center">
+                                        <div class="feature-box">
+                                            <div class="feature-icon mb-3">
+                                                <i class="fas fa-code"></i>
+                                            </div>
+                                            <h5 class="text-white mb-2">Clean Code</h5>
+                                            <p class="text-muted small">Writing maintainable, scalable solutions</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="feature-box">
+                                            <div class="feature-icon mb-3">
+                                                <i class="fas fa-palette"></i>
+                                            </div>
+                                            <h5 class="text-white mb-2">UI/UX Developer</h5>
+                                            <p class="text-muted small">Creating intuitive user experiences</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <div class="feature-box">
+                                            <div class="feature-icon mb-3">
+                                                <i class="fas fa-coffee"></i>
+                                            </div>
+                                            <h5 class="text-white mb-2">Problem Solver</h5>
+                                            <p class="text-muted small">Tackling complex challenges</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 order-1 order-lg-2">
+                            <div class="about-image position-relative">
+                                <div class="about-placeholder d-flex align-items-center justify-content-center">
+                                    <div class="display-1">👨‍💻</div>
+                                </div>
+                                <div class="floating-element floating-1"></div>
+                                <div class="floating-element floating-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="section-title text-center text-white mb-5">
+                        My <span class="gradient-text">Skills</span>
+                    </h2>
+                    
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="skill-card h-100">
+                                <h4 class="text-white text-center mb-4">Programming</h4>
+                                <div class="skills-list">
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">Core Java</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">C Language</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">JavaScript</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 70%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">HTML/CSS</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6">
+                            <div class="skill-card h-100">
+                                <h4 class="text-white text-center mb-4">Frameworks</h4>
+                                <div class="skills-list">
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">Spring Boot</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">Bootstrap</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">Hibernate</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">Servlets</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6">
+                            <div class="skill-card h-100">
+                                <h4 class="text-white text-center mb-4">Database & Tools</h4>
+                                <div class="skills-list">
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">MySQL</span>
+                                         
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">Github</span>
+                                         
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">RESTful APIs</span>
+                                           
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <span class="text-light">MS Office</span>
+                                            
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-dark-secondary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="section-title text-center text-white mb-5">
+                        Featured <span class="gradient-text">Projects</span>
+                    </h2>
+                    
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="project-card h-100">
+                                <div class="project-image">
+                                    <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202301/generic_banner_ind-sixteen_nine.png?size=948:533" 
+                                         alt="Red Bus Clone" class="img-fluid">
+                                    <div class="project-overlay"></div>
+                                </div>
+                                <div class="project-content p-4">
+                                    <h4 class="text-white mb-3">Red Bus Clone</h4>
+                                    <p class="text-light mb-4">A web application that allows users to search, book, and manage bus tickets with RESTful APIs.</p>
+                                    
+                                    <div class="project-tech mb-4">
+                                        <span class="tech-tag">Java</span>
+                                        <span class="tech-tag">Spring Boot</span>
+                                        <span class="tech-tag">MySQL</span>
+                                        <span class="tech-tag">RESTful APIs</span>
+                                    </div>
+                                    
+                                    <div class="project-links">
+                                        <a href="#" class="project-link me-4">
+                                            <i class="fab fa-github me-2"></i>Code
+                                        </a>
+                                        <a href="#" class="project-link">
+                                            <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="project-card h-100">
+                                <div class="project-image">
+                                    <img src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                                         alt="Practo Clone" class="img-fluid">
+                                    <div class="project-overlay"></div>
+                                </div>
+                                <div class="project-content p-4">
+                                    <h4 class="text-white mb-3">Practo Clone</h4>
+                                    <p class="text-light mb-4">Web Application for Healthcare Services with registration, login system and user profile management.</p>
+                                    
+                                    <div class="project-tech mb-4">
+                                        <span class="tech-tag">Java Servlets</span>
+                                        <span class="tech-tag">Hibernate</span>
+                                        <span class="tech-tag">MySQL</span>
+                                        <span class="tech-tag">HTML/CSS</span>
+                                    </div>
+                                    
+                                    <div class="project-links">
+                                        <a href="#" class="project-link me-4">
+                                            <i class="fab fa-github me-2"></i>Code
+                                        </a>
+                                        <a href="#" class="project-link">
+                                            <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 bg-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="section-title text-center text-white mb-5">
+                        Experience & <span class="gradient-text">Education</span>
+                    </h2>
+                    
+                    <!-- Experience -->
+                    <div class="mb-5">
+                        <h3 class="text-white mb-4 d-flex align-items-center">
+                            <i class="fas fa-briefcase text-primary me-3"></i>
+                            Intership Experience
+                        </h3>
+                        
+                        <div class="experience-card">
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-8">
+                                    <h4 class="text-white mb-2">Web Developer</h4>
+                                    <p class="text-primary fw-semibold mb-0">DIGIT Institute</p>
+                                </div>
+                                <div class="col-md-4 text-md-end">
+                                    <div class="text-muted small">
+                                        <div class="mb-1">
+                                            <i class="fas fa-calendar me-2"></i>Apr 2024 - Jun 2024
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-map-marker-alt me-2"></i>Hyderabad
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <p class="text-light mb-3">Developed a comprehensive course information webpage designed to provide students with detailed insights into Software-Testing.</p>
+                            
+                            <div class="mb-4">
+                                <a href="https://sonukumardas.github.io/Ditgit_Website/" target="_blank" class="text-primary text-decoration-none">
+                                    <i class="fas fa-external-link-alt me-2"></i>View Project
+                                </a>
+                            </div>
+                            
+                            <ul class="experience-list">
+                                <li>Created course syllabus, schedules, enrollment details, and instructor information pages</li>
+                                <li>Implemented responsive design using HTML, CSS, JavaScript, and Bootstrap</li>
+                                <li>Enhanced user experience with interactive elements and modern UI design</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div>
+                        <h3 class="text-white mb-4 d-flex align-items-center">
+                            <i class="fas fa-graduation-cap text-secondary me-3"></i>
+                            Education
+                        </h3>
+                        
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="education-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h5 class="text-white mb-2">B.Tech in Electronics and Communication Engineering</h5>
+                                            <p class="text-secondary fw-semibold mb-2">Malla Reddy Institute of Engineering and Technology</p>
+                                            <div class="text-muted small">
+                                                <span class="me-4">
+                                                    <i class="fas fa-calendar me-2"></i>Aug 2019 - Sep 2023
+                                                </span>
+                                                <span>
+                                                    <i class="fas fa-map-marker-alt me-2"></i>Hyderabad
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-md-end">
+                                            <span class="badge bg-gradient-primary px-3 py-2">GPA: 6.64</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="education-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h5 class="text-white mb-2">Intermediate (MPC)</h5>
+                                            <p class="text-secondary fw-semibold mb-2">Narayana Junior College</p>
+                                            <div class="text-muted small">
+                                                <span class="me-4">
+                                                    <i class="fas fa-calendar me-2"></i>Jul 2017 - Apr 2019
+                                                </span>
+                                                <span>
+                                                    <i class="fas fa-map-marker-alt me-2"></i>Hyderabad
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-md-end">
+                                            <span class="badge bg-gradient-primary px-3 py-2">Percentage : 80.5%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="education-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-8">
+                                            <h5 class="text-white mb-2">Secondary School Certificate</h5>
+                                            <p class="text-secondary fw-semibold mb-2">Nagarjuna High School</p>
+                                            <div class="text-muted small">
+                                                <span class="me-4">
+                                                    <i class="fas fa-calendar me-2"></i>Jun 2016 - Apr 2017
+                                                </span>
+                                                <span>
+                                                    <i class="fas fa-map-marker-alt me-2"></i>Hyderabad
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-md-end">
+                                            <span class="badge bg-gradient-primary px-3 py-2">GPA: 7.2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark-secondary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h2 class="section-title text-center text-white mb-5">
+                        Get In <span class="gradient-text">Touch</span>
+                    </h2>
+                    
+                    <div class="row g-5">
+                        <div class="col-lg-6">
+                            <div class="contact-info">
+                                <h3 class="text-white mb-4">Let's work together</h3>
+                                <p class="text-light mb-5">
+                                    I'm always interested in new opportunities and exciting projects. 
+                                    Whether you have a project in mind or just want to chat, feel free to reach out!
+                                </p>
+                                
+                                <div class="contact-details">
+                                    <div class="contact-item d-flex align-items-center mb-4">
+                                        <div class="contact-icon me-4">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div>
+                                            <p class="text-muted small mb-1">Email</p>
+                                            <p class="text-white mb-0">sonukumardas1202@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-item d-flex align-items-center mb-4">
+                                        <div class="contact-icon me-4">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                        <div>
+                                            <p class="text-muted small mb-1">Phone</p>
+                                            <p class="text-white mb-0">+91 8096302672</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contact-item d-flex align-items-center">
+                                        <div class="contact-icon me-4">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div>
+                                            <p class="text-muted small mb-1">Location</p>
+                                            <p class="text-white mb-0">Hyderabad, Telangana, India</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <form id="contactForm" class="contact-form">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="mb-4">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-gradient w-100 py-3">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark border-top border-secondary py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="text-muted mb-0 d-flex align-items-center justify-content-center justify-content-md-start">
+                        Made with <i class="fas fa-heart text-danger mx-2"></i> by Sonu Kumar Das
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="text-muted mb-0">&copy; 2024 All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
